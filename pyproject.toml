@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "lapplication"
+version = "0.1.0"
+description = "Personal utility timer"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.scripts]
+lapplication = "lapplication.cli:app"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
